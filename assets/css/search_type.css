@@ -1,0 +1,36 @@
+:root 
+{
+  --main-color: #1e5587;
+  --second-main-color: #556986;
+  --text-color: #545454;
+  --bg-color: #e3e6ed;
+}
+
+.search_type_card_container
+{
+	gap: 20px 64px;
+}
+
+.search_type_card
+{
+	height: 545px;
+	width: 30%;
+}
+
+.search_type_card .card_img
+{
+	height: 80%;
+}
+
+.search_type_card .card_body
+{
+	height: 20%;
+	color: var(--second-main-color);
+}
+
+.search_type_card .card_btn
+{
+	background: var(--main-color);
+	padding: 10px 30px;
+	text-transform: uppercase;
+}

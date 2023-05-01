@@ -1,0 +1,140 @@
+:root 
+{
+  --main-color: #1e5587;
+  --second-main-color: #556986;
+  --text-color: #545454;
+  --bg-color: #e3e6ed;
+}
+
+.register_container
+{
+
+	background: url("../img/suchagentin-anmeldung-hintergrund.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 31px;
+}
+
+.register_container .form
+{
+	width: 50%;
+	margin-left: 12px;
+	margin-right: 20px;
+	opacity: 0.9;
+	padding: 24px;
+}
+
+.register_container .form .title
+{
+	font-size: 18px;
+}
+
+.register_container .form input
+{
+	padding: 15px 0 8px 10px;
+	border-bottom: 1px solid var(--main-color) !important;
+	outline: none;
+}
+
+.register_container .form input::placeholder
+{
+	color: var(--main-color);	
+	font-size: 14px;
+}
+
+.register_container .form label
+{
+	color: #777;
+	cursor: pointer;
+}
+
+.register_container .form a
+{
+	color: var(--main-color);
+	text-decoration: underline;
+}
+
+.register_container .form .register_btn
+{
+	background: var(--main-color);
+	color: #fff;
+	padding: 8px 35px;
+	border: 0;
+	outline: none;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+.register_container h2
+{
+	font-size: 30px;
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+
+.register_container p
+{
+	font-size: 18px;
+}
+
+.privacy_policy
+{
+	color: var(--second-main-color);
+}
+
+.privacy_policy .col-12>.col-12 a
+{
+	color: #1e5586;
+	text-decoration: underline;
+}
+
+.privacy_policy .col-12>.col-12 span
+{
+	color: #1e5586;
+}
+
+.privacy_policy>.wrapper>.row .col-3>img
+{
+	margin-top: 10px !important;
+	padding-left: 5px !important;
+}
+
+@media screen and (max-width:991px)
+{
+	.wrapper>.row>div
+	{
+		width: 100% !important;
+	}
+	.register_container
+	{
+		background: #fff;display: block !important;
+		padding: 0 10px;
+		margin-top: 20px;
+	}
+
+	.register_container>.form,
+	.register_container>div
+	{
+		width: 100% !important;
+		margin: 0;
+		padding: 0;
+	}
+
+	.facility>.row>div
+	{
+		width: 100%;
+	}
+
+	.facility>.row>div:nth-child(2)
+	{
+		margin-top: 20px !important;
+	}
+}
+
+@media screen and (max-width:1199px)
+{
+	.header_ad
+	{
+		display: none;
+	}
+}

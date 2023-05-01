@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C7CEDB;}
+	.st1{fill:#A5BCDC;}
+	.st2{fill:#1F5686;}
+	.st3{fill:#E3E6ED;}
+	.st4{fill:#1C2F5C;}
+	.st5{clip-path:url(#SVGID_2_);fill:#1C2F5C;}
+	.st6{clip-path:url(#SVGID_4_);fill:#A5BCDC;}
+	.st7{clip-path:url(#SVGID_6_);}
+	.st8{clip-path:url(#SVGID_8_);fill:#536887;}
+	.st9{clip-path:url(#SVGID_10_);fill:#FFFFFF;}
+	.st10{clip-path:url(#SVGID_12_);fill:#FFFFFF;}
+	.st11{clip-path:url(#SVGID_14_);}
+	.st12{clip-path:url(#SVGID_16_);}
+	.st13{fill:#FFFFFF;}
+	.st14{clip-path:url(#SVGID_18_);fill:#A5BCDC;}
+	.st15{clip-path:url(#SVGID_20_);fill:#1C2F5C;}
+	.st16{clip-path:url(#SVGID_22_);}
+	.st17{fill:#0D0802;}
+</style>
+<g id="HG_FARBE">
+	<rect class="st1" width="200" height="200"/>
+</g>
+<g id="ILLUS">
+	<g>
+		<defs>
+			<rect id="SVGID_5_" width="200" height="200"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_2_);">
+			<rect x="14.6" y="41.8" class="st2" width="21.3" height="7.7"/>
+			
+				<rect x="38.9" y="99.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -58.7599 65.3382)" class="st2" width="21.3" height="7.7"/>
+			
+				<rect x="161.7" y="92.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -24.4711 147.2767)" class="st2" width="7.7" height="21.3"/>
+			<rect x="178.7" y="41.2" class="st2" width="21.3" height="7.7"/>
+			<rect x="79.2" y="118.1" class="st2" width="56.2" height="7.7"/>
+			<rect x="79.2" y="133.4" class="st2" width="56.2" height="7.7"/>
+			<polygon class="st2" points="107.3,164 135.4,148.7 79.2,148.7 			"/>
+			<path class="st2" d="M171.1,45.4c0-35.2-28.6-63.8-63.8-63.8c-35.2,0-63.8,28.6-63.8,63.8c0,25.3,14.8,47.1,36.1,57.4h-0.4v7.7
+				h56.2v-7.7H135C156.3,92.5,171.1,70.7,171.1,45.4z M107.3,101.5c-30.9,0-56.1-25.2-56.1-56.1s25.2-56.1,56.1-56.1
+				c30.9,0,56.1,25.2,56.1,56.1S138.2,101.5,107.3,101.5z"/>
+		</g>
+	</g>
+</g>
+</svg>

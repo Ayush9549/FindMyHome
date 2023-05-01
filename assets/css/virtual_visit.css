@@ -1,0 +1,50 @@
+:root 
+{
+  --main-color: #1e5587;
+  --second-main-color: #556986;
+  --text-color: #545454;
+  --bg-color: #e3e6ed;
+}
+
+.virtual_visit_container>div:nth-child(1)
+{
+	height: 700px;
+}
+
+.virtual_visit_container>div:nth-child(1) img
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.prop_district_select_1,
+.prop_district_select_2,
+.prop_district_select_3,
+.prop_district_select_4,
+.prop_district_select_5,
+.prop_district_select_6,
+.prop_district_select_7,
+.rent_state,
+.rent_district_select_1,
+.rent_district_select_2,
+.rent_district_select_3,
+.rent_district_select_4,
+.rent_district_select_5
+{
+	display: none;
+}
+
+.virtual_visit_container .take_home_btn
+{
+	width: 200px;
+	padding: 8px 0;
+	text-align: center;
+	background: var(--main-color);
+	color: #fff;
+}
+
+.virtual_visit_container a
+{
+	color: var(--main-color);
+}

@@ -1,0 +1,133 @@
+:root 
+{
+  --main-color: #1e5587;
+  --second-main-color: #556986;
+  --text-color: #545454;
+  --bg-color: #e3e6ed;
+}
+
+
+.fixed_cost_helpers_img
+{
+	height: 350px;
+}
+
+.fixed_cost_helpers_img div:nth-child(2)
+{
+	width: 250px;
+	top: 30%;
+	left: 8%;
+	font-size: 28px;
+}
+
+.idea_pic
+{
+	width: 70px;
+	height: 70px;
+}
+
+.responsive_img
+{
+	display: none;
+}
+
+.financing .title
+{
+	position: relative;
+}
+
+.financing .title:before
+{
+	position: absolute;
+	top: 40%;
+	right: 0;
+	content: '';
+	width: 75%;
+	height: 1px;
+	background: var(--main-color);
+}
+
+.financing_card_container 
+{
+	gap: 26px;
+}
+
+.financing_card .card_img
+{
+	height: 90%;
+}
+
+.financing_card_container a
+{
+	width: 300px;	
+	height: auto;
+}
+
+.trusted_partner
+{
+	background: var(--main-color);
+	padding: 70px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+@media screen and (max-width:991px)
+{
+	.hidden-sm
+	{
+		display: none !important;
+	}
+
+	.financing_card_container a
+	{
+		width: 216px;
+	}
+
+	.financing_card .card_body
+	{
+		font-size: 14px !important;
+		margin-top: 5px !important;
+	}
+
+	.our_tip>div
+	{
+		margin: 0 !important;
+		width: 95% !important;
+		margin-left: 20px !important;
+	}
+
+	.responsive_img
+	{
+		display: flex;
+		padding: 0 20px;
+	}
+
+	.financing>div
+	{
+		padding: 0 20px !important;
+	}
+
+	.trusted_partner
+	{
+		width: 95% !important;
+		margin-left: 23px;
+	}
+}
+
+@media screen and (max-width:767px)
+{
+	.financing_card_container
+	{
+		justify-content: center;
+	}
+
+	.financing_card_container a
+	{
+		width: 336px;
+	}
+
+	.financing>div
+	{
+		padding: 0 20px !important;
+	}
+}

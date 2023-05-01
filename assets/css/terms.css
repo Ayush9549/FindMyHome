@@ -1,0 +1,48 @@
+:root 
+{
+  --main-color: #1e5587;
+  --second-main-color: #556986;
+  --text-color: #545454;
+  --bg-color: #e3e6ed;
+}
+
+.terms_container
+{
+	color: var(--text-color);
+}
+
+.terms_container ul li a
+{
+	background: #e1f1fb;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.terms_container ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.terms_container .title
+{
+	background: var(--bg-color);
+}
+
+h6
+{
+	font-size: 18px !important;
+	place-items: ;
+}
+
+p
+{
+	color: var(--text-color);
+}
+
+strong
+{
+	color: var(--main-color);
+}

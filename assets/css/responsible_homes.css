@@ -1,0 +1,77 @@
+:root 
+{
+  --main-color: #1e5587;
+  --second-main-color: #556986;
+  --text-color: #545454;
+  --bg-color: #e3e6ed;
+}
+
+
+.responsible_homes_container>div:nth-child(1)
+{
+	height: 550px;
+}
+
+.responsible_homes_container>div:nth-child(1) img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.responsible_homes_container .prop_rent_filter
+{
+	background: var(--bg-color);
+
+}
+
+.responsible_homes_container .prop_rent_filter ul li
+{
+	border-radius: 2px;
+	padding: 5px 30px;
+	cursor: pointer;
+	color: #91A0B9;
+	font-weight: bold;
+	border: 1px solid #91A0B9;
+}
+
+.toggle_border
+{
+	border: 2px solid var(--main-color) !important;
+	color: var(--main-color) !important;
+}
+
+.prop_rent_filter select
+{
+	border: 1px solid #91A0B9;
+	padding: 5px;
+	width: 250px;
+}
+
+.rent_select
+{
+	display: none;
+}
+
+.take_home_btn
+{
+	background: var(--main-color);
+	color: #fff;
+	padding: 5px 0px;
+	text-align: center;
+	width: 200px;
+	cursor: pointer;
+}
+
+.responsible_homes_container a
+{
+	color: var(--main-color);
+}
+
+@media screen and (max-width:991px)
+{
+	.responsible_homes_container>div:nth-child(2)
+	{
+		padding-left: 0 !important;
+		margin-top: 40px !important;
+	}
+}

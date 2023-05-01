@@ -1,0 +1,94 @@
+:root 
+{
+  --main-color: #1e5587;
+  --second-main-color: #556986;
+  --text-color: #545454;
+  --bg-color: #e3e6ed;
+}
+
+.hero_img
+{
+	height: 200px;
+}
+
+.hero_img>div
+{
+	top: 30%;
+}
+
+.particularities ul li,.country_container ul li
+{
+	width: 30%;
+	height: 35px;
+	padding-top: 7px;
+	padding-left: 8px;
+	color: var(--text-color);
+	cursor: pointer;
+}
+
+.last_days_container ul li
+{
+	width: 13%;
+	height: 35px;
+	padding-top: 7px;
+	padding-left: 8px;
+	color: var(--text-color);
+	cursor: pointer;
+}
+
+.border-bottom
+{
+	border-color: var(--main-color) !important;
+}
+
+.find_my_properties
+{
+	background: rgb(195, 10, 50);
+	color: #e3e6ed;
+	width: 50%;
+	padding: 7px 0;
+	text-align: center;
+	display: none;
+}
+
+.disabled_btn
+{
+	background: #91a0b9;
+	padding: 10px 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: not-allowed !important;
+}
+
+.prop_search p
+{
+	color: var(--text-color);
+}
+
+@media screen and (max-width:1199px)
+{
+	.object_container div,
+	.object_container>div>div
+	{
+		width: 100% !important;
+		display: block !important;
+		padding-left: 0 !important;
+		line-height: 30px;
+	}
+
+	.last_days_container>div,.country_container>div,.country_container>div li,.particularities>div,.particularities>div li
+	{
+		width: 100% !important;
+	}
+
+	.last_days_container ul
+	{
+		display: block !important;
+	}
+
+	.last_days_container li
+	{
+		width: 100% !important;
+	}
+
+}

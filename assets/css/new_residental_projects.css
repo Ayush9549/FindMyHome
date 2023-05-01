@@ -1,0 +1,45 @@
+:root 
+{
+  --main-color: #1e5587;
+  --second-main-color: #556986;
+  --text-color: #545454;
+  --bg-color: #e3e6ed;
+}
+
+
+.new_residental_projects
+{
+}
+
+.new_residental_projects_container>div
+{
+	color: var(--second-main-color);
+	height: 200px;
+}
+
+.new_residental_projects .row>.col-12>a
+{
+	color: var(--main-color);
+}
+
+@media screen and (max-width: 767px)
+{
+	.new_residental_projects_container>div
+	{
+		height: 150px;
+	}
+
+	.new_residental_projects_container>div strong,
+	.new_residental_projects_container>div div
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 375px)
+{
+	.new_residental_projects_container>div
+	{
+		height: 70px;
+	}
+}
